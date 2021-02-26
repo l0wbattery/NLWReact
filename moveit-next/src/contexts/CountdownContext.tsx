@@ -18,7 +18,7 @@ interface CountdownProviderProps {
 export const CountdownContext = createContext({} as CountdownContextData);
 
 let countdownTimeout: NodeJS.Timeout;
-const defaultTime = 10;
+const defaultTime = 2;
 
 
 export function CountdownProvider({children}: CountdownProviderProps) {
